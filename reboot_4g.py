@@ -17,7 +17,7 @@ try:
     driver = webdriver.Chrome(chrome_options=options)
     driver.get('http://192.168.0.1/');
     input_login = driver.find_element_by_id('pc-login-password')
-    input_login.send_keys('walopare')
+    input_login.send_keys('CHANGEME')
 
     btn_login  = driver.find_element_by_id('pc-login-btn')
     btn_login.click()
